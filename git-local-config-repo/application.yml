@@ -1,0 +1,8 @@
+# DB Connection Properties
+db:
+  connection:
+    # connectionString: connection string for default here from local-config-repo
+    userName: local-config-repo-default
+    password: local-config-repo-default
+  host: 127.0.0.1
+  port: 2325

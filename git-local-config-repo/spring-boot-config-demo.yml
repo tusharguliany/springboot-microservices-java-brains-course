@@ -1,0 +1,11 @@
+db:
+  connection:
+    connectionString: newly updated connection string for spring-boot-config-demo microservice with default profile from local-config-repo
+    userName: local-config-repo-default
+    password: local-config-repo-default
+  host: 127.0.0.1
+  port: 2326
+
+spring:
+  profiles:
+    active: dev
