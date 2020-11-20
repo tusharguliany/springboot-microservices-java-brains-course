@@ -1,0 +1,13 @@
+# DB Connection Properties
+db:
+  connection:
+    connectionString: connection string for dev here
+    userName: dev
+    password: dev
+  host: 127.0.0.1
+  port: 2324
+
+# not recommended for production environment
+management:
+  endpoints:
+    web.exposure.include: "*"

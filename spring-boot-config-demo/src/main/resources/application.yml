@@ -1,0 +1,18 @@
+# DB Connection Properties
+db:
+  connection:
+    connectionString: connection string for default here
+    userName: default
+    password: default
+  host: 127.0.0.1
+  port: 2321
+
+# not recommended for production environment
+management:
+  endpoints:
+    web.exposure.include: "*"
+    
+spring:
+  application:    name: spring-boot-config-demo
+  cloud:
+    config:      uri: http://localhost:8888
